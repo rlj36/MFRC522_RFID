@@ -1355,6 +1355,7 @@ main(void)
 	 */
 #endif
 
+	int output_green = devSSD1331init();
 	while (1)
 	{
 		/*
