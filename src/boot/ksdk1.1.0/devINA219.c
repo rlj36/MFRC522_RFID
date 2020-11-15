@@ -176,15 +176,15 @@ printSensorDataINA219(bool hexModeFlag)
 	shunt_voltage_raw = deviceINA219State.i2cBuffer;
 	float shunt_voltage = shunt_voltage_raw * 0.01;
 	
-	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Current /* numberOfBytes */);
+	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Current, 2 /* numberOfBytes */);
 	current_raw = deviceINA219State.i2cBuffer;
 	float current = current_raw/ina219_currentDivider_mA;
 	
-	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219BusVoltage/* numberOfBytes */);
+	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219BusVoltage, 2/* numberOfBytes */);
 	bus_voltage_raw = deviceINA219State.i2cBuffer;
 	float bus_voltage = bus_voltage_raw * 0.001;
 
-	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Power /* numberOfBytes */);
+	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Power, 2 /* numberOfBytes */);
 	power_raw = deviceINA219State.i2cBuffer;
 	float power = power_raw/ina219_powerMultiplier_mW;
 
