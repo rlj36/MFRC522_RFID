@@ -90,7 +90,7 @@ configureSensorINA219(uint16_t payloadConfiguration, uint16_t menuI2cPullupValue
 }
 
 WarpStatus
-readSensorRegisterINA219(uint8_t deviceRegister)
+readSensorRegisterINA219(uint8_t deviceRegister, int numberOfBytes)
 {
 	uint8_t		cmdBuf[1] = {0xFF};
 	i2c_status_t	status;
@@ -205,6 +205,6 @@ printSensorDataINA219(bool hexModeFlag)
 			SEGGER_RTT_printf(0, " %d,", readSensorRegisterValueCombined);
 		}
 		*/
-		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d," shunt_voltage, current, bus_voltage, power);
+		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage, current, bus_voltage, power);
 	}
 }
