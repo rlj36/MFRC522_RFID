@@ -91,6 +91,7 @@ ADD_EXECUTABLE(Warp
     "${ProjDirPath}/../../src/warp-kl03-ksdk1.1-powermodes.c"
     "${ProjDirPath}/../../src/devBMX055.c"
     "${ProjDirPath}/../../src/devSSD1331.c"	
+    "${ProjDirPath}/../../src/devINA219.c"
 #    "${ProjDirPath}/../../src/devADXL362.c"
     "${ProjDirPath}/../../src/devMMA8451Q.c"
 #    "${ProjDirPath}/../../src/devLPS25H.c"

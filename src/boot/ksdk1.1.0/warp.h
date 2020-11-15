@@ -155,6 +155,7 @@ typedef enum
 	kWarpSensorAS7262,
 	kWarpSensorAS7263,
 	kWarpSensorSCD30,
+	kWarpSensorINA219,
 } WarpSensorDevice;
 
 typedef enum
@@ -223,6 +224,8 @@ typedef enum
 	kWarpSensorConfigurationRegisterBME680CalibrationRegion1End	= 0xA2,
 	kWarpSensorConfigurationRegisterBME680CalibrationRegion2Start	= 0xE1,
 	kWarpSensorConfigurationRegisterBME680CalibrationRegion2End	= 0xF2,
+
+	kWarpSensorConfigurationRegisterINA219Configuration = 0x00,
 } WarpSensorConfigurationRegister;
 
 typedef enum
@@ -292,6 +295,11 @@ typedef enum
 	kWarpSensorOutputRegisterBME680temp_xlsb			= 0x24,
 	kWarpSensorOutputRegisterBME680hum_msb				= 0x25,
 	kWarpSensorOutputRegisterBME680hum_lsb				= 0x26,
+
+	kWarpSensorOutputRegisterINA219ShuntVoltage			= 0x01,
+	kWarpSensorOutputRegisterINA219BusVoltage			= 0x02,
+	kWarpSensorOutputRegisterINA219Power				= 0x03,
+	kWarpSensorOutputRegisterINA219Current				= 0x04,
 } WarpSensorOutputRegister;
 
 typedef struct

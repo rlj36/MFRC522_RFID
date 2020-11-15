@@ -72,6 +72,7 @@
 #	include "devCCS811.h"
 #	include "devAMG8834.h"
 #	include "devSSD1331.h"
+#	include "devINA219.h"
 //#	include "devMAX11300.h"
 //#include "devTCS34725.h"
 //#include "devSI4705.h"
@@ -85,6 +86,7 @@
 //#include "devISL23415.h"
 #else
 #	include "devMMA8451Q.h"
+#	include "devINA219.h"
 #endif
 
 
@@ -119,6 +121,10 @@ volatile WarpI2CDeviceState			deviceBMX055magState;
 
 #ifdef WARP_BUILD_ENABLE_DEVMMA8451Q
 volatile WarpI2CDeviceState			deviceMMA8451QState;
+#endif
+
+#ifdef WARP_BUILD_ENABLE_DEVINA219
+volatile WarpI2CDeviceState			deviceINA219State;
 #endif
 
 #ifdef WARP_BUILD_ENABLE_DEVLPS25H
@@ -1252,6 +1258,10 @@ main(void)
 	initMMA8451Q(	0x1D	/* i2cAddress */,	&deviceMMA8451QState	);
 #endif
 
+#ifdef WARP_BUILD_ENABLE_DEVINA219
+	initINA219(	0x40 	/* i2cAddress */,  &deviceINA219State);
+#endif
+
 #ifdef WARP_BUILD_ENABLE_DEVLPS25H
 	initLPS25H(	0x5C	/* i2cAddress */,	&deviceLPS25HState	);
 #endif
@@ -1593,6 +1603,13 @@ main(void)
 #endif
 				OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
 
+#ifdef WARP_BUILD_ENABLE_DEVINA219
+				SEGGER_RTT_WriteString(0, "\r\t- 'l' INA219			(0x00--0x05): 3V -- 5.5V\n");
+				#else
+				SEGGER_RTT_WriteString(0, "\r\t- 'l' INA219			(0x00--0x05): 3V -- 5.5V (compiled out) \n");
+#endif
+				OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
+
 				SEGGER_RTT_WriteString(0, "\r\tEnter selection> ");
 				OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
 
@@ -1741,6 +1758,14 @@ main(void)
 					{
 						menuTargetSensor = kWarpSensorAS7263;
 						menuI2cDevice = &deviceAS7263State;
+						break;
+					}
+#endif
+#ifdef WARP_BUILD_ENABLE_DEVINA219
+					case 'l':
+					{
+						menuTargetSensor = kWarpSensorINA219;
+						menuI2cDevice = &deviceINA219State;
 						break;
 					}
 #endif
@@ -2530,6 +2555,10 @@ printAllSensors(bool printHeadersAndCalibration, bool hexModeFlag, int menuDelay
 					i2cPullupValue
 					);
 	#endif
+	#ifdef WARP_BUILD_ENABLE_DEVINA219
+	numberOfConfigErrors += configureSensorINA219(0x399F,
+													i2cPullupValue);
+	#endif
 	#ifdef WARP_BUILD_ENABLE_DEVMAG3110
 	numberOfConfigErrors += configureSensorMAG3110(	0x00,/*	Payload: DR 000, OS 00, 80Hz, ADC 1280, Full 16bit, standby mode to set up register*/
 					0xA0,/*	Payload: AUTO_MRST_EN enable, RAW value without offset */
@@ -2671,6 +2700,9 @@ printAllSensors(bool printHeadersAndCalibration, bool hexModeFlag, int menuDelay
 		#endif
 		#ifdef WARP_BUILD_ENABLE_DEVMMA8451Q
 		printSensorDataMMA8451Q(hexModeFlag);
+		#endif
+		#ifdef WARP_BUILD_ENABLE_DEVINA219
+		printSensorDataINA219(hexModeFlag);
 		#endif
 		#ifdef WARP_BUILD_ENABLE_DEVMAG3110
 		printSensorDataMAG3110(hexModeFlag);
@@ -2929,6 +2961,34 @@ repeatRegisterReadForDeviceAndAddress(WarpSensorDevice warpSensorDevice, uint8_t
 					);
 			#else
 			SEGGER_RTT_WriteString(0, "\r\n\tMMA8451Q Read Aborted. Device Disabled :(");
+#endif
+			break;
+		}
+
+		case kWarpSensorINA219:
+		{
+			/*
+			 *	INA219: VDD 3--5.5
+			 */
+#ifdef WARP_BUILD_ENABLE_DEVINA219
+			loopForSensor(	"\r\nINA219:\n\r",		/*	tagString			*/
+					&readSensorRegisterINA219,	/*	readSensorRegisterFunction	*/
+					&deviceINA219State,		/*	i2cDeviceState			*/
+					NULL,				/*	spiDeviceState			*/
+					baseAddress,			/*	baseAddress			*/
+					0x00,				/*	minAddress			*/
+					0x05,				/*	maxAddress			*/
+					repetitionsPerAddress,		/*	repetitionsPerAddress		*/
+					chunkReadsPerAddress,		/*	chunkReadsPerAddress		*/
+					spinDelay,			/*	spinDelay			*/
+					autoIncrement,			/*	autoIncrement			*/
+					sssupplyMillivolts,		/*	sssupplyMillivolts		*/
+					referenceByte,			/*	referenceByte			*/
+					adaptiveSssupplyMaxMillivolts,	/*	adaptiveSssupplyMaxMillivolts	*/
+					chatty				/*	chatty				*/
+					);
+			#else
+			SEGGER_RTT_WriteString(0, "\r\n\tINA219 Read Aborted. Device Disabled :(");
 #endif
 			break;
 		}
