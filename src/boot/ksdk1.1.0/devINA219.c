@@ -150,9 +150,9 @@ printSensorDataINA219(bool hexModeFlag)
 	WarpStatus  i2cWriteStatus;
 
 	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x1000, 0x00);
-	if (i2cWriteStatus == kWarpStatusOK)
+	if (i2cWriteStatus != kWarpStatusOK)
 	{
-		SEGGER_RTT_printf(0, "Calibration completed");
+		SEGGER_RTT_printf("Write failed");
 	}
 
 	float ina219_currentDivider_mA = 10; // Current LSB = 100uA per bit (1000/100 = 10)
@@ -205,6 +205,6 @@ printSensorDataINA219(bool hexModeFlag)
 			SEGGER_RTT_printf(0, " %d,", readSensorRegisterValueCombined);
 		}
 		*/
-		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage, current, bus_voltage, power);
+		SEGGER_RTT_printf("shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage, current, bus_voltage, power);
 	}
 }
