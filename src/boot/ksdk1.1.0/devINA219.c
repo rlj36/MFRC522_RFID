@@ -33,7 +33,7 @@ initINA219(const uint8_t i2cAddress, WarpI2CDeviceState volatile *  deviceStateP
 WarpStatus
 writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t menuI2cPullupValue)
 {
-	uint16_t		payloadByte[1];
+	uint8_t		payloadByte[1];
 	uint8_t			commandByte[1];
 	i2c_status_t	status;
 
@@ -127,7 +127,7 @@ readSensorRegisterINA219(uint8_t deviceRegister, int numberOfBytes)
 							&slave,
 							cmdBuf,
 							1,
-							(uint16_t *)deviceINA219State.i2cBuffer,
+							(uint8_t *)deviceINA219State.i2cBuffer,
 							numberOfBytes,
 							gWarpI2cTimeoutMilliseconds);
 
@@ -174,7 +174,9 @@ printSensorDataINA219(bool hexModeFlag)
 	 */
 
   	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219BusVoltage, 2/* numberOfBytes */);
-	bus_voltage_raw = (int16_t)((deviceINA219State.i2cBuffer >> 3) * 4);
+  	uint16_t bus_voltage_rawMSB = deviceINA219State.i2cBuffer[0]
+  	uint16_t bus_voltage_rawLSB = deviceINA219State.i2cBuffer[1]
+	bus_voltage_raw = (int16_t)((bus_voltage_rawMSB >> 3) * 4);
 	float bus_voltage = bus_voltage_raw * 0.001;
 
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219ShuntVoltage, 2 /* numberOfBytes */);
