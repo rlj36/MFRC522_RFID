@@ -33,7 +33,7 @@ initINA219(const uint8_t i2cAddress, WarpI2CDeviceState volatile *  deviceStateP
 WarpStatus
 writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t menuI2cPullupValue)
 {
-	uint16_t		payloadByte[1];
+	uint8_t		payloadByte[1];
 	uint8_t			commandByte[1];
 	i2c_status_t	status;
 
@@ -172,6 +172,13 @@ printSensorDataINA219(bool hexModeFlag)
 	 *	We therefore do 2-byte read transactions, for each of the registers.
 	 *	We could also improve things by doing a 6-byte read transaction.
 	 */
+
+  	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219BusVoltage, 2/* numberOfBytes */);
+  	uint16_t bus_voltage_rawMSB = deviceINA219State.i2cBuffer[0];
+  	uint16_t bus_voltage_rawLSB = deviceINA219State.i2cBuffer[1];
+	bus_voltage_raw = (int16_t)((bus_voltage_rawMSB >> 3) * 4);
+	float bus_voltage = bus_voltage_raw * 0.001;
+
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219ShuntVoltage, 2 /* numberOfBytes */);
 	shunt_voltage_raw = deviceINA219State.i2cBuffer;
 	float shunt_voltage = shunt_voltage_raw * 0.01;
@@ -180,10 +187,6 @@ printSensorDataINA219(bool hexModeFlag)
 	current_raw = deviceINA219State.i2cBuffer;
 	float current = current_raw/ina219_currentDivider_mA;
 	
-	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219BusVoltage, 2/* numberOfBytes */);
-	bus_voltage_raw = deviceINA219State.i2cBuffer;
-	float bus_voltage = bus_voltage_raw * 0.001;
-
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Power, 2 /* numberOfBytes */);
 	power_raw = deviceINA219State.i2cBuffer;
 	float power = power_raw/ina219_powerMultiplier_mW;
