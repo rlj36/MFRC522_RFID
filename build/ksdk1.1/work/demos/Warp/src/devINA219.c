@@ -34,7 +34,7 @@ WarpStatus
 writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t menuI2cPullupValue)
 {
 	uint8_t		payloadByte[1];
-	uint8_t			commandByte[1];
+	uint8_t		commandByte[1];
 	i2c_status_t	status;
 
 	switch (deviceRegister)
@@ -64,8 +64,8 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t men
 							&slave,
 							commandByte,
 							1,
-							payloadByte,
-							1,
+							(uint8_t *)payload,
+							2,
 							gWarpI2cTimeoutMilliseconds);
 	if (status != kStatus_I2C_Success)
 	{
