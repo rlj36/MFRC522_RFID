@@ -64,7 +64,7 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t men
 							&slave,
 							commandByte,
 							1,
-							payload,
+							(uint8_t *)payload,
 							2,
 							gWarpI2cTimeoutMilliseconds);
 	if (status != kStatus_I2C_Success)
