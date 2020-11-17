@@ -64,7 +64,7 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t men
 							&slave,
 							commandByte,
 							1,
-							(uint8_t *)payload,
+							payloadByte,
 							2,
 							gWarpI2cTimeoutMilliseconds);
 	if (status != kStatus_I2C_Success)
@@ -176,19 +176,26 @@ printSensorDataINA219(bool hexModeFlag)
   	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219BusVoltage, 2/* numberOfBytes */);
   	uint16_t bus_voltage_rawMSB = deviceINA219State.i2cBuffer[0];
   	uint16_t bus_voltage_rawLSB = deviceINA219State.i2cBuffer[1];
-	bus_voltage_raw = (int16_t)((bus_voltage_rawMSB >> 3) * 4);
+  	int16_t combined = ((bus_voltage_rawMSB & 0xFF) << 6) | (bus_voltage_rawLSB >> 2);
+	bus_voltage_raw = (int16_t)((combined >> 3) * 4);
 	float bus_voltage = bus_voltage_raw * 0.001;
 
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219ShuntVoltage, 2 /* numberOfBytes */);
-	shunt_voltage_raw = deviceINA219State.i2cBuffer;
+	uint16_t shunt_MSB = deviceINA219State.i2cBuffer[0];
+	uint16_t shunt_LSB = deviceINA219State.i2cBuffer[1];
+	shunt_voltage_raw = ((shunt_MSB & 0xFF) << 6) | (shunt_LSB >> 2);
 	float shunt_voltage = shunt_voltage_raw * 0.01;
 	
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Current, 2 /* numberOfBytes */);
-	current_raw = deviceINA219State.i2cBuffer;
+	uint16_t current_MSB = deviceINA219State.i2cBuffer[0];
+	uint16_t current_LSB = deviceINA219State.i2cBuffer[1];
+	current_raw = ((current_MSB & 0xFF) << 6) | (current_LSB >> 2);
 	float current = current_raw/ina219_currentDivider_mA;
 	
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219Power, 2 /* numberOfBytes */);
-	power_raw = deviceINA219State.i2cBuffer;
+	uint16_t power_MSB = deviceINA219State.i2cBuffer[0];
+	uint16_t power_LSB = deviceINA219State.i2cBuffer[1];
+	power_raw = ((power_MSB & 0xFF) << 6) | (power_LSB >> 2);
 	float power = power_raw/ina219_powerMultiplier_mW;
 
 
