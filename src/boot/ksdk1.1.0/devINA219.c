@@ -31,7 +31,7 @@ initINA219(const uint8_t i2cAddress, WarpI2CDeviceState volatile *  deviceStateP
 }
 
 WarpStatus
-writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t menuI2cPullupValue)
+writeSensorRegisterINA219(uint8_t deviceRegister, uint8_t payload, uint16_t menuI2cPullupValue)
 {
 	uint8_t		payloadByte[1];
 	uint8_t		commandByte[1];
@@ -65,7 +65,7 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t men
 							commandByte,
 							1,
 							payloadByte,
-							2,
+							1,
 							gWarpI2cTimeoutMilliseconds);
 	if (status != kStatus_I2C_Success)
 	{
@@ -78,15 +78,19 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint16_t payload, uint16_t men
 WarpStatus
 configureSensorINA219(uint16_t payloadConfiguration, uint16_t menuI2cPullupValue)
 {
-	WarpStatus	i2cWriteStatus1;
+	WarpStatus	i2cWriteStatus1, i2cWriteStatus2;
 
 	i2cWriteStatus1 = writeSensorRegisterINA219(kWarpSensorConfigurationRegisterINA219Configuration/* register address F_SETUP */,
-							payloadConfiguration /* payload: Disable FIFO */,
+							0x01 /* payload: Disable FIFO */,
 							menuI2cPullupValue);
+	i2cWriteStatus2 = writeSensorRegisterINA219(kWarpSensorConfigurationRegisterINA219Configuration,
+							0x9F,
+							menuI2cPullupValue);
+
 
 	
 
-	return (i2cWriteStatus1);
+	return (i2cWriteStatus1 | i2cWriteStatus2);
 }
 
 WarpStatus
@@ -149,7 +153,8 @@ printSensorDataINA219(bool hexModeFlag)
 	WarpStatus	i2cReadStatus;
 	WarpStatus  i2cWriteStatus;
 
-	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x1000, 0x00);
+	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x50, 0x00);
+	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x00, 0x00);
 	if (i2cWriteStatus != kWarpStatusOK)
 	{
 		SEGGER_RTT_printf(0, "Write failed");
