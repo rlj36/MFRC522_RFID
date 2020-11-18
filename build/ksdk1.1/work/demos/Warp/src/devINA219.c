@@ -151,7 +151,7 @@ void
 printSensorDataINA219(bool hexModeFlag)
 {
 	//int16_t	shunt_voltage_raw;
-	//int16_t	bus_voltage_raw;
+	int16_t	bus_voltage_raw;
 	//int16_t	current_raw;
 	//int16_t power_raw;
 	WarpStatus	i2cReadStatus;
@@ -192,7 +192,7 @@ printSensorDataINA219(bool hexModeFlag)
   	uint16_t bus_voltage_rawMSB = deviceINA219State.i2cBuffer[0];
   	uint16_t bus_voltage_rawLSB = deviceINA219State.i2cBuffer[1];
   	int16_t combined = ((bus_voltage_rawMSB & 0xFF) << 6) | (bus_voltage_rawLSB >> 2);
-	//bus_voltage_raw = (int16_t)((combined >> 3) * 4);
+	bus_voltage_raw = (int16_t)((combined >> 3) * 4);
 	//float bus_voltage = bus_voltage_raw * 0.001;
 
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219ShuntVoltage, 2 /* numberOfBytes */);
@@ -230,6 +230,6 @@ printSensorDataINA219(bool hexModeFlag)
 			SEGGER_RTT_printf(0, " %d,", readSensorRegisterValueCombined);
 		}
 		*/
-		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage_raw, current_raw, combined, power_raw);
+		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage_raw, current_raw, bus_voltage_raw, power_raw);
 	}
 }
