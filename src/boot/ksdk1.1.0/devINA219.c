@@ -31,9 +31,9 @@ initINA219(const uint8_t i2cAddress, WarpI2CDeviceState volatile *  deviceStateP
 }
 
 WarpStatus
-writeSensorRegisterINA219(uint8_t deviceRegister, uint8_t payload, uint16_t menuI2cPullupValue)
+writeSensorRegisterINA219(uint8_t deviceRegister, uint8_t payload, uint8_t payload1, uint16_t menuI2cPullupValue)
 {
-	uint8_t		payloadByte[1];
+	uint8_t		payloadByte[2];
 	uint8_t		commandByte[1];
 	i2c_status_t	status;
 
@@ -59,6 +59,7 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint8_t payload, uint16_t menu
 
 	commandByte[0] = deviceRegister;
 	payloadByte[0] = payload;
+	payloadByte[1] = payload1
 	status = I2C_DRV_MasterSendDataBlocking(
 							0 /* I2C instance */,
 							&slave,
@@ -78,21 +79,22 @@ writeSensorRegisterINA219(uint8_t deviceRegister, uint8_t payload, uint16_t menu
 WarpStatus
 configureSensorINA219(uint16_t payloadConfiguration, uint16_t menuI2cPullupValue)
 {
-	WarpStatus	i2cWriteStatus1, i2cWriteStatus2;
+	WarpStatus	i2cWriteStatus2;
 
 	i2cWriteStatus2 = writeSensorRegisterINA219(kWarpSensorConfigurationRegisterINA219Configuration,
 							0x9F,
+							0x01,
 							menuI2cPullupValue);
 
-	i2cWriteStatus1 = writeSensorRegisterINA219(kWarpSensorConfigurationRegisterINA219Configuration/* register address F_SETUP */,
-							0x01 /* payload: Disable FIFO */,
-							menuI2cPullupValue);
+	//i2cWriteStatus1 = writeSensorRegisterINA219(kWarpSensorConfigurationRegisterINA219Configuration  /* register address F_SETUP */,
+	//						0x01 /* payload: Disable FIFO */,
+	//						menuI2cPullupValue);
 	
 
 
 	
 
-	return (i2cWriteStatus1 | i2cWriteStatus2);
+	return (i2cWriteStatus2);
 }
 
 WarpStatus
@@ -154,13 +156,13 @@ printSensorDataINA219(bool hexModeFlag)
 	//int16_t power_raw;
 	WarpStatus	i2cReadStatus;
 	WarpStatus  i2cWriteStatus;
-	WarpStatus  i2cconfig;
+	//WarpStatus  i2cconfig;
 
 	//i2cconfig = configureSensorINA219(0x5000, 0x20);
 
 
-	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x10, 0x00);
-	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x00, 0x00);
+	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x10, 0x00, 0x00);
+	//i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x00, 0x00);
 
 	if (i2cWriteStatus != kWarpStatusOK)
 	{
