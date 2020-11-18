@@ -154,7 +154,7 @@ printSensorDataINA219(bool hexModeFlag)
 	WarpStatus  i2cWriteStatus;
 	WarpStatus  i2cconfig;
 
-	i2cconfig = configureSensorINA219(0x5000, 0x20)
+	i2cconfig = configureSensorINA219(0x5000, 0x20);
 
 
 	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x50, 0x00);
