@@ -149,18 +149,19 @@ void
 printSensorDataINA219(bool hexModeFlag)
 {
 	//int16_t	shunt_voltage_raw;
-	//int16_t	bus_voltage_raw;
+	int16_t	bus_voltage_raw;
 	//int16_t	current_raw;
 	//int16_t power_raw;
 	WarpStatus	i2cReadStatus;
 	WarpStatus  i2cWriteStatus;
 	WarpStatus  i2cconfig;
 
-	i2cconfig = configureSensorINA219(0x5000, 0x20);
+	//i2cconfig = configureSensorINA219(0x5000, 0x20);
 
 
-	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x50, 0x00);
+	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x10, 0x00);
 	i2cWriteStatus = writeSensorRegisterINA219(0x05, 0x00, 0x00);
+
 	if (i2cWriteStatus != kWarpStatusOK)
 	{
 		SEGGER_RTT_printf(0, "Write failed");
@@ -168,6 +169,7 @@ printSensorDataINA219(bool hexModeFlag)
 
 	float ina219_currentDivider_mA = 10; // Current LSB = 100uA per bit (1000/100 = 10)
   	float ina219_powerMultiplier_mW = 2; // Power LSB = 1mW per bit (2/1)
+
   	//int16_t ina219_cal = 4096 (0x1000);
 
 
@@ -188,7 +190,7 @@ printSensorDataINA219(bool hexModeFlag)
   	uint16_t bus_voltage_rawMSB = deviceINA219State.i2cBuffer[0];
   	uint16_t bus_voltage_rawLSB = deviceINA219State.i2cBuffer[1];
   	uint16_t combined = ((bus_voltage_rawMSB & 0xFF) << 6) | (bus_voltage_rawLSB >> 2);
-	//bus_voltage_raw = (int16_t)((combined >> 3) * 4);
+	bus_voltage_raw = (int16_t)((combined >> 3) * 4);
 	//float bus_voltage = bus_voltage_raw * 0.001;
 
 	i2cReadStatus = readSensorRegisterINA219(kWarpSensorOutputRegisterINA219ShuntVoltage, 2 /* numberOfBytes */);
@@ -226,6 +228,6 @@ printSensorDataINA219(bool hexModeFlag)
 			SEGGER_RTT_printf(0, " %d,", readSensorRegisterValueCombined);
 		}
 		*/
-		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage_raw, current_raw, combined, power_raw);
+		SEGGER_RTT_printf(0, "shunt_voltage: %d, current: %d, bus_voltage: %d, power: %d,", shunt_voltage_raw, current_raw, bus_voltage_raw, power_raw);
 	}
 }
