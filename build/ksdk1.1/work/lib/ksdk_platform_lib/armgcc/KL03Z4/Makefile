@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /students/ooo30/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4
+CMAKE_SOURCE_DIR = /students/rlj36/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /students/ooo30/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4
+CMAKE_BINARY_DIR = /students/rlj36/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /students/ooo30/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4/CMakeFiles /students/ooo30/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /students/rlj36/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4/CMakeFiles /students/rlj36/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /students/ooo30/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /students/rlj36/Warp-firmware/build/ksdk1.1/work/lib/ksdk_platform_lib/armgcc/KL03Z4/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,1382 +123,1382 @@ KsdkPlatformLib/fast:
 	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/build
 .PHONY : KsdkPlatformLib/fast
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.obj
-
-# target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj
-
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i
-
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.i
-
-# target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i
-
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s
-
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.s
-
-# target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s
-
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj
-
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s:
-	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.c.s
+
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj
+
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.obj
+
+# target to build an object file
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.obj
+
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i
+
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.i
+
+# target to preprocess a source file
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.i
+
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s
+
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.s
+
+# target to generate assembly for a file
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s:
+	$(MAKE) -f CMakeFiles/KsdkPlatformLib.dir/build.make CMakeFiles/KsdkPlatformLib.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.c.s
 
 # Help Target
 help:
@@ -1509,159 +1509,159 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... KsdkPlatformLib"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/adc16/fsl_adc16_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cmp/fsl_cmp_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/cop/fsl_cop_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/gpio/fsl_gpio_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_master_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_shared_function.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_slave_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lptmr/fsl_lptmr_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/lpuart/fsl_lpuart_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/rtc/fsl_rtc_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_master_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_shared_function.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_slave_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/tpm/fsl_tpm_driver.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/adc16/fsl_adc16_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cmp/fsl_cmp_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/cop/fsl_cop_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/gpio/fsl_gpio_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/i2c/fsl_i2c_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/llwu/fsl_llwu_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lptmr/fsl_lptmr_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/lpuart/fsl_lpuart_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/mcglite/fsl_mcglite_hal_modes.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/osc/fsl_osc_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/pmc/fsl_pmc_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/port/fsl_port_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rcm/fsl_rcm_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/rtc/fsl_rtc_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/sim/MKL03Z4/fsl_sim_hal_MKL03Z4.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/smc/fsl_smc_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/spi/fsl_spi_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/hal/src/tpm/fsl_tpm_hal.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/osa/src/fsl_os_abstraction_bm.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/MKL03Z4/fsl_clock_MKL03Z4.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/clock/fsl_clock_manager_common.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/hwtimer/fsl_hwtimer_systick.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/interrupt/fsl_interrupt_manager.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/system/src/power/fsl_power_manager.s"
 .PHONY : help
 
 

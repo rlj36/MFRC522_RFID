@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
+CMAKE_SOURCE_DIR = /students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
+CMAKE_BINARY_DIR = /students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles /students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles /students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,581 +123,581 @@ Warp/fast:
 	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/build
 .PHONY : Warp/fast
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.obj
-
-# target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
-
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
-
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.obj
+
+# target to build an object file
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
+
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
+
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.obj: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.obj: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.obj
 
 # target to build an object file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.i: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.i: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.i
 
 # target to preprocess a source file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
 
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.s: students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.s: students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
 
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.s
 
 # target to generate assembly for a file
-students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s:
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
-.PHONY : students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
+students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s:
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
+.PHONY : students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
 
 # Help Target
 help:
@@ -708,70 +708,70 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Warp"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.s"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.obj"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.i"
-	@echo "... students/ooo30/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devISL23415.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMFRC522.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.s"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.obj"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.i"
+	@echo "... students/rlj36/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.s"
 .PHONY : help
 
 

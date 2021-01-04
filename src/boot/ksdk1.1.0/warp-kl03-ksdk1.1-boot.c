@@ -63,16 +63,17 @@
 *	Comment out the header file to disable devices
 */
 #ifndef WARP_FRDMKL03
-#	include "devBMX055.h"
-#	include "devMMA8451Q.h"
-#	include "devHDC1000.h"
-#	include "devMAG3110.h"
-#	include "devL3GD20H.h"
-#	include "devBME680.h"
-#	include "devCCS811.h"
-#	include "devAMG8834.h"
+//#	include "devBMX055.h"
+//#	include "devMMA8451Q.h"
+//#	include "devHDC1000.h"
+//#	include "devMAG3110.h"
+//#	include "devL3GD20H.h"
+//#	include "devBME680.h"
+//#	include "devCCS811.h"
+//#	include "devAMG8834.h"
 #	include "devSSD1331.h"
-#	include "devINA219.h"
+//#	include "devINA219.h"
+# include "devMFRC522.h"
 //#	include "devMAX11300.h"
 //#include "devTCS34725.h"
 //#include "devSI4705.h"
@@ -85,8 +86,10 @@
 //#include "devRV8803C7.h"
 //#include "devISL23415.h"
 #else
-#	include "devMMA8451Q.h"
-#	include "devINA219.h"
+//#	include "devMMA8451Q.h"
+# include "devMFRC522.h"
+//#	include "devINA219.h"
+//# include "devMFRC522.h"
 #endif
 
 
@@ -111,6 +114,10 @@ volatile WarpSPIDeviceState			deviceADXL362State;
 
 #ifdef WARP_BUILD_ENABLE_DEVISL23415
 volatile WarpSPIDeviceState			deviceISL23415State;
+#endif
+
+#ifdef WARP_BUILD_ENABLE_DEVMFRC522
+volatile WarpSPIDeviceState			deviceMFRC522State;
 #endif
 
 #ifdef WARP_BUILD_ENABLE_DEVBMX055
@@ -216,7 +223,7 @@ void					enableTPS82740B(uint16_t voltageMillivolts);
 void					setTPS82740CommonControlLines(uint16_t voltageMillivolts);
 void					printPinDirections(void);
 void					dumpProcessorState(void);
-void					repeatRegisterReadForDeviceAndAddress(WarpSensorDevice warpSensorDevice, uint8_t baseAddress, 
+void					repeatRegisterReadForDeviceAndAddress(WarpSensorDevice warpSensorDevice, uint8_t baseAddress,
 								uint8_t pullupValue, bool autoIncrement, int chunkReadsPerAddress, bool chatty,
 								int spinDelay, int repetitionsPerAddress, uint16_t sssupplyMillivolts,
 								uint16_t adaptiveSssupplyMaxMillivolts, uint8_t referenceByte);
@@ -1336,6 +1343,10 @@ main(void)
 	initISL23415(&deviceISL23415State);
 #endif
 
+#ifdef WARP_BUILD_ENABLE_DEVMFRC522
+	initMFRC522(&deviceMFRC522State);
+#endif
+
 	/*
 	 *	Make sure SCALED_SENSOR_SUPPLY is off.
 	 *
@@ -1366,6 +1377,7 @@ main(void)
 #endif
 
 	int output_green = devSSD1331init();
+	int rfid = devMFRC522init();
 	while (1)
 	{
 		/*
@@ -1475,10 +1487,18 @@ main(void)
 		SEGGER_RTT_WriteString(0, "\r- 'z': dump all sensors data.\n");
 		OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
 
+		SEGGER_RTT_WriteString(0, "\r- '-': Read 1000 raw current values from the INA219.\n");
+		OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
+
 		SEGGER_RTT_WriteString(0, "\rEnter selection> ");
 		OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
 		key = SEGGER_RTT_WaitKey();
-		
+
+
+
+
+
+
 		switch (key)
 		{
 			/*
@@ -2118,7 +2138,6 @@ main(void)
 				break;
 			}
 #endif
-
 			/*
 			 *	Switch to RUN
 			 */
@@ -2509,6 +2528,18 @@ main(void)
 				break;
 			}
 
+			case '-':
+			{
+				bool		hexModeFlag = 1;
+				#ifdef WARP_BUILD_ENABLE_DEVINA219
+				enableI2Cpins(menuI2cPullupValue);
+								for (int i = 0; i < 1000; ++i)
+				{
+					printSensorDataINA219(hexModeFlag, menuI2cPullupValue);
+				}
+				#endif
+				break;
+			}
 
 			/*
 			 *	Ignore naked returns.
@@ -2702,7 +2733,7 @@ printAllSensors(bool printHeadersAndCalibration, bool hexModeFlag, int menuDelay
 		printSensorDataMMA8451Q(hexModeFlag);
 		#endif
 		#ifdef WARP_BUILD_ENABLE_DEVINA219
-		printSensorDataINA219(hexModeFlag);
+		printSensorDataINA219(hexModeFlag, i2cPullupValue);
 		#endif
 		#ifdef WARP_BUILD_ENABLE_DEVMAG3110
 		printSensorDataMAG3110(hexModeFlag);
