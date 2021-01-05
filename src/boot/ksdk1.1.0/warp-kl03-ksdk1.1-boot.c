@@ -55,7 +55,6 @@
 #include "SEGGER_RTT.h"
 #include "warp.h"
 
-
 #define WARP_FRDMKL03
 
 
@@ -1376,7 +1375,7 @@ main(void)
 	 */
 #endif
 
-	int output_green = devSSD1331init();
+//	int output_green = devSSD1331init();
 	int rfid = devMFRC522init();
 	while (1)
 	{
