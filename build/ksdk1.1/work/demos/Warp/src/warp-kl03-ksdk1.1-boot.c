@@ -55,6 +55,7 @@
 #include "SEGGER_RTT.h"
 #include "warp.h"
 
+
 #define WARP_FRDMKL03
 
 
@@ -115,15 +116,15 @@ volatile WarpSPIDeviceState			deviceADXL362State;
 volatile WarpSPIDeviceState			deviceISL23415State;
 #endif
 
-#ifdef WARP_BUILD_ENABLE_DEVMFRC522
-volatile WarpSPIDeviceState			deviceMFRC522State;
-#endif
-
 #ifdef WARP_BUILD_ENABLE_DEVBMX055
 volatile WarpI2CDeviceState			deviceBMX055accelState;
 volatile WarpI2CDeviceState			deviceBMX055gyroState;
 volatile WarpI2CDeviceState			deviceBMX055magState;
 #endif
+
+volatile WarpSPIDeviceState deviceMFRC522State;
+
+
 
 #ifdef WARP_BUILD_ENABLE_DEVMMA8451Q
 volatile WarpI2CDeviceState			deviceMMA8451QState;
@@ -1376,9 +1377,21 @@ main(void)
 #endif
 
 //	int output_green = devSSD1331init();
-	int rfid = devMFRC522init();
+	devMFRC522init(&deviceMFRC522State);
+	SEGGER_RTT_WriteString(0, "\nRFID Initialised\n");
+
+	uint8_t uid[5];
+	uint8_t uid2[5];
+
+
 	while (1)
 	{
+		uint8_t data_rfid[MAX_LEN];
+
+
+
+
+
 		/*
 		 *	Do not, e.g., lowPowerPinStates() on each iteration, because we actually
 		 *	want to use menu to progressiveley change the machine state with various
@@ -1487,6 +1500,9 @@ main(void)
 		OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
 
 		SEGGER_RTT_WriteString(0, "\r- '-': Read 1000 raw current values from the INA219.\n");
+		OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
+
+		SEGGER_RTT_WriteString(0, "\r '#': RFID Menu.\n");
 		OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
 
 		SEGGER_RTT_WriteString(0, "\rEnter selection> ");
@@ -2539,7 +2555,69 @@ main(void)
 				#endif
 				break;
 			}
+			case '#':
+			{
+			  SEGGER_RTT_printf(0, "\r\n\t1. Save UID for tag: ");
+			  SEGGER_RTT_printf(0, "\r\n\t2. Test UID: ");
+			  OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds);
+			  key = SEGGER_RTT_WaitKey();
+			  switch(key)
+			  {
+				//	uint8_t data_rfid[MAX_LEN];
+			    case '1':
+			    {
+						//uint8_t data_rfid[MAX_LEN] = {0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
+						SEGGER_RTT_printf(0, "\nSaved UID: ");
+			      if( request_tag(MF1_REQIDL, data_rfid) == MI_OK){
+			        if(mfrc522_get_card_serial(data_rfid) == MI_OK){
+			          for(int datcop =0; datcop <5; datcop++){
+			            uid[datcop] = data_rfid[datcop];
+			            SEGGER_RTT_printf(0, "0x%02x ", uid[datcop]);
+			          }
 
+			        }
+			      }
+			      else{
+			        SEGGER_RTT_WriteString(0, "No card present");
+			      }
+			      break;
+			    }
+			    case '2':
+			    {
+						SEGGER_RTT_WriteString(0, "\n2. Saved UID: ");
+						for(int datcop =0; datcop <5; datcop++){
+			      	SEGGER_RTT_printf(0, "0x%02x ", uid[datcop]);
+						}
+						SEGGER_RTT_WriteString(0, "\n2. Test UID (1s delay): ");
+						OSA_TimeDelay(gWarpMenuPrintDelayMilliseconds*200);
+			      if( request_tag(MF1_REQIDL, data_rfid) == MI_OK){
+			        if(mfrc522_get_card_serial( data_rfid) == MI_OK){
+			          for(int datcop =0; datcop <5; datcop++){
+			            uid2[datcop] = data_rfid[datcop];
+			            SEGGER_RTT_printf(0, "0x%02x ", uid2[datcop]);
+			          }
+								int correct = 1;
+								for(int datcop =0; datcop <5; datcop++){
+									if (uid2[datcop] != uid[datcop]){
+										correct = 0;
+									}
+								}
+								if (correct == 1){
+									SEGGER_RTT_WriteString(0, "\r\n\tCorrect card present");
+								}
+								else{
+									SEGGER_RTT_WriteString(0, "\r\n\tIncorrect card present");
+								}
+							}
+			      }
+			      else{
+			        SEGGER_RTT_WriteString(0, "No card present");
+			      }
+			      break;
+			    }
+			  }
+			  break;
+			}
 			/*
 			 *	Ignore naked returns.
 			 */
